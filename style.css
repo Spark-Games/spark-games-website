@@ -122,7 +122,8 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
-    padding: 20px 40px;
+    padding: 20px 10px;
+    height: min-content
     border-color: #00e0e0;
     border-radius: 3px;
     text-transform: uppercase;
