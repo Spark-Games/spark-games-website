@@ -273,14 +273,10 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
-    background-attachment: fixed;
-    background-image: url(https://i.ibb.co/k92tCsH/header-bg.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    /* background-attachment: fixed;
+    background-image: url(./img/header-bg.gif);
+    background-position: center center; */
+    
 }
 
 header .intro-text {
@@ -297,7 +293,8 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
+    margin-top: -100px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 40px;
